@@ -1,0 +1,20 @@
+Recursion-means function calling itself until base condition is met.
+2 types.
+1--function calling same function itself and itself.
+2--function calling another function itself and itself.
+in java we don't have pointers. we can't use reference.so java is strictly passed by value.
+if we didn't  mention base case properly we will get an exception.
+if we didn't mention base case properly we will get an exception called stack overflow.
+
+
+#in strings we have a method called charAt
+str.charAt(4)  // hello output--o.
+
+##Reverse using Recursion(String)
+-->  before this problem we have to know
+      -charAt(index)
+      -substring(index) exp str.substring(1)  //hello output will be ello. means string start from 1 -means index only.
+
+      so steps are 
+      1.take the first index i.e charAt(0), store in ch==  and compare with target character.
+      if it is equal ignore if not append, and move to next index i.e substring(1) and repeat the same process.
